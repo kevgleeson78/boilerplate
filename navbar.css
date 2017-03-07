@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 27, 2017, 12:25:49 PM
+    Author     : kevin
+*/
+body{
+    margin: 5px;
+}
+.header{
+   display: inline-block;
+   width: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    max-width: 1144px;
+    margin: 0 auto;   
+}
+/*img, section, .switch-section, .switch-left, .switch-right{
+   vertical-align: top;
+}*/
+.navbar{
+    padding: 25px;
+    float: right;
+}
+ul{
+   
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   
+}
+li{
+    float: right;
+    margin-right: 15px;
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 14px 14px;
+}
+li:hover{
+    border-bottom: solid darkred 1px;
+}
+
+/*hero section*/
+.hero{
+    display: inline-block;
+    width: 100%;
+}
+.hero-right{
+    float:right;
+}
+.hero-left{
+    float: left;
+}
+.hero-left h2{
+    font-size: 35px;
+}
+
+
+/*Switch Section*/
+
+.switch-section{
+    display: inline-block;
+    width: 100%;
+}
+.switch-right{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    
+}
+.switch-left{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.img-left{
+    float: left;
+}
+.text-right{
+    float: right;
+    max-width: 400px;
+}
+.img-right{
+    float: right;
+}
+.text-left{
+    float: left;
+    max-width: 400px;
+}
+hr{
+    margin: 50px auto;
+    display: block;
+    width: 190px;
+    border: none;
+    border-bottom: solid 1px #a7abaf;
+}
+
+/*CTA section*/
+.cta{
+    display: inline-block;
+    width: 100%;
+}
+.cta-wrapper{
+  margin: 0 auto;
+  max-width: 660px;
+  text-align: center;
+}
+
+/*Blog Section*/
+
+.blog{
+    margin: 5px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.blog-list{
+    display: inline-block;
+    width: 100%;
+}
+.blog-wrap{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.blog-left{
+    max-width: 600px;
+    float: left;
+}
+.blog-right{
+    float: right;
+}
